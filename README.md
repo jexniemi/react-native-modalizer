@@ -1,2 +1,2 @@
 # react-native-modalizer
-A fully customizable modal component for React-Native
+A fully customizabla, animated modal component for React-Native
