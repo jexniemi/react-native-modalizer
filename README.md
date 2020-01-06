@@ -10,3 +10,9 @@ A fully customizable, animated modal component for React-Native
 | modalOpen      | yes           |   boolean |
 | wrapperStyle   | optional      |    {} |
 | onIndexChanged | optional      |    {} |
+
+
+| Name     |   Type   |   default   | Description  |
+| :------- | :------: | :---------: | :----------- |
+| index    | `number` | `undefined` | offset index |
+| animated |  `bool`  |   `true`    | offset index |
