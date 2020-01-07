@@ -11,7 +11,10 @@ In your project root run:
 
 ```
 npm install react-native-modalizer
-OR
+```
+
+Or if you use yarn:
+```
 yarn add react-native-modalizer
 ```
 
