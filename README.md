@@ -57,7 +57,7 @@ export default (props) => {
         <Button title="Close modal" onPress={() => setModalOpen(false)}/>
       </ View>
     </View>
-	)
+  )
 
   return (
     <ScreenContainer style={{ flex: 1 }} >
