@@ -1,6 +1,8 @@
 # react-native-modalizer
 A fully customizable, animated modal component for React-Native
 
+## Installation
+
 ## Props
 
 | Name     |   Type   |   Required   | Description  |
@@ -9,13 +11,15 @@ A fully customizable, animated modal component for React-Native
 | wrapperStyle  |  {}  |   optional   | Overwrite any default wrapper styles |
 | onIndexChanged  |  {}  |   optional    | Overwrite any default modal content container styles |
 
+## Usage
+
 ## Example usage
 
 ```
 export default (props) => {
   const [ modalOpen, setModalOpen] = useState(false)
   
-	const modalContent = (
+  const modalContent = (
     <View style={{ flex: 1 }}>
       <View style={{ flex: 3 }}>
         <Image 
