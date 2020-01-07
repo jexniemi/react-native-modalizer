@@ -5,9 +5,9 @@ A fully customizable, animated modal component for React-Native
 
 ## Installation
 
-´´´
+```
 import Modalizer from './Modalizer'
-´´´
+```
 
 ## Props
 
