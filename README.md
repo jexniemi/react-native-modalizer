@@ -14,7 +14,7 @@ npm install --save react-native-modalizer
 Import the module:
 
 ```
-import Modalizer from './Modalizer/index.js'
+import Modalizer from 'react-native-modalizer'
 ```
 
 ## Props
