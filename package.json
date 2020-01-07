@@ -1,0 +1,32 @@
+{
+  "name": "react-native-modalizer",
+  "version": "1.0.0",
+  "description": "A customizable, animated modal component for React-Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jexniemi/react-native-modalizer.git"
+  },
+  "keywords": [
+    "modal",
+    "react",
+    "react-native",
+    "modalise",
+    "modalizer",
+    "animated",
+    "full-screen",
+    "full",
+    "screen",
+    "javascript",
+    "jsx"
+  ],
+  "author": "jexniemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jexniemi/react-native-modalizer/issues"
+  },
+  "homepage": "https://github.com/jexniemi/react-native-modalizer#readme"
+}
