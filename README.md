@@ -5,7 +5,13 @@ A fully customizable, animated modal component for React-Native. Make modals out
 
 ## Installation
 
-TODO
+In your project root run:
+
+```
+npm install --save react-native-modalizer
+```
+
+Import the module:
 
 ```
 import Modalizer from './Modalizer/index.js'
@@ -66,4 +72,8 @@ export default (props) => {
 ## Altering default styles
 
 The modal consists of two parts, the outter wrapper and the inner content container (the actual modal). The wrapper takes up 100% of width and height of any container where you put it to prevent scrolling the content and to center the modal. To alter the size or look of the modal, use the containerStyle prop to override any default styles.
+
+## Other
+
+[NPM link](https://www.npmjs.com/package/react-native-modalizer)
 
