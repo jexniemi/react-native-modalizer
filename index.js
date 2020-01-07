@@ -1,19 +1,29 @@
 import React, { useState, useEffect } from 'react'
 import { Animated } from 'react-native'
+import PropTypes from 'prop-types'; 
 
-export default (props) => {
-	const { modalOpen } = props
+export default Modalizer = (props) => {
+	// Props
+	Modalizer.propTypes = {
+		modalOpen: PropTypes.bool.isRequired,
+		wrapperStyle: PropTypes.object,
+		containerStyle: PropTypes.object
+	}
+	const { modalOpen, wrapperStyle, containerStyle} = props
+
+	// State
 	const [paddingAnim] = useState(new Animated.Value(0))
 	const [opacityAnim] = useState(new Animated.Value(0))
-	const [ shouldRender, setShouldRender ] = useState(modalOpen)
+	const [ shouldRender, setShouldRender ] = useState(null)
 	
 	useEffect(() => {
 		if (modalOpen) {
 			setShouldRender(true)
 			openModal()
 		} 
-
-		if (!modalOpen) {
+		
+		let timer
+		if (!modalOpen && shouldRender !== null) {
 			timer = setTimeout(() => {
 				setShouldRender(false)
 			}, 200);
@@ -77,14 +87,14 @@ export default (props) => {
 				padding: paddingAnim, 
 				opacity: opacityAnim
 			}, 
-			props.wrapperStyle
+			wrapperStyle
 		]}>
 			<Animated.View style={[
 				{
 					...styles.container,
 					opacity: opacityAnim
 				},
-				props.containerStyle
+				containerStyle
 			]}>
 				{props.children}
 			</Animated.View>	
