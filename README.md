@@ -39,7 +39,7 @@ Usage is simple, place the Modalizer inside any container (the component will ta
 ```
 <Modalizer modalOpen={modalOpen}>
   {Render children here}
-</ Modalizer>
+</Modalizer>
 ```
 
 ## Example usage
@@ -55,13 +55,13 @@ export default (props) => {
           style={{ height: '100%', width: '100%'}}
           source={{uri: 'https://images.pexels.com/photos/3418058/pexels-photo-3418058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 '}}
         />
-      </ View>
+      </View>
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text>This is a modal</Text> 
-      </ View>
+      </View>
       <View style={{ flex: 1 }}>
         <Button title="Close modal" onPress={() => setModalOpen(false)}/>
-      </ View>
+      </View>
     </View>
   )
 
@@ -70,7 +70,7 @@ export default (props) => {
       <Button title="open modal" onPress={() => setModalOpen(true)}/>
       <Modalizer modalOpen={modalOpen}>
         {modalContent}
-      </ Modalizer>
+      </Modalizer>
     </ScreenContainer>
   )
 }
