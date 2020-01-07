@@ -13,7 +13,7 @@ A fully customizable, animated modal component for React-Native
 
 ## Usage
 
-Usage is simple, render children between the <Modalizer>  tags and use modalOpen prop to control opening and closing the modal. When you change the modalOpen prop animation is triggered and all of the content inside the modal is unmounted.
+Usage is simple, place the Modalizer inside any container (the component will take up 100% of the width and height of it), render children between the tags and use modalOpen prop to control opening and closing the modal. When you change the modalOpen prop animation is triggered and all of the content inside the modal is unmounted.
 
 ```
 <Modalizer modalOpen={modalOpen}>
