@@ -48,6 +48,7 @@ export default (props) => {
 
   return (
     <ScreenContainer style={{ flex: 1 }} >
+      <Button title="open modal" onPress={() => setModalOpen(true)}/>
       <Modalizer modalOpen={modalOpen}>
         {modalContent}
       </ Modalizer>
