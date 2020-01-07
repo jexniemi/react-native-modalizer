@@ -10,7 +10,9 @@ A fully customizable, animated modal component for React-Native. Make modals out
 In your project root run:
 
 ```
-npm install --save react-native-modalizer
+npm install react-native-modalizer
+OR
+yarn add react-native-modalizer
 ```
 
 Import the module:
