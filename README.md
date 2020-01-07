@@ -1,5 +1,5 @@
 # react-native-modalizer
-A fully customizable, animated modal component for React-Native
+A fully customizable, animated modal component for React-Native. Make modals out of anything, such fun!
 
 ![](modal_small.gif)
 
