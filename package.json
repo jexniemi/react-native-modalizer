@@ -1,6 +1,6 @@
 {
   "name": "react-native-modalizer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A customizable, animated modal component for React-Native",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/jexniemi/react-native-modalizer/issues"
   },
-  "homepage": "https://github.com/jexniemi/react-native-modalizer#readme"
+	"homepage": "https://github.com/jexniemi/react-native-modalizer#readme",
+	"dependencies": {
+		"prop-types": "^15.7.2"
+	}
 }
