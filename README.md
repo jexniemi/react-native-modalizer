@@ -30,7 +30,7 @@ import Modalizer from 'react-native-modalizer'
 | :------- | :------: | :---------: | :----------- |
 | modalOpen   | `bool` | yes  | Set true to open modal, set false to close |
 | wrapperStyle  |  {}  |   optional   | Overwrite any default wrapper styles |
-| modalStyle |  {}  |   optional    | Overwrite any default modal content container styles |
+| modalStyle |  {}  |   optional    | Overwrite any default modal styles |
 
 ## Usage
 
