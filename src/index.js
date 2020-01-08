@@ -7,9 +7,9 @@ export default Modalizer = (props) => {
 	Modalizer.propTypes = {
 		modalOpen: PropTypes.bool.isRequired,
 		wrapperStyle: PropTypes.object,
-		containerStyle: PropTypes.object
+		modalStyle: PropTypes.object
 	}
-	const { modalOpen, wrapperStyle, containerStyle} = props
+	const { modalOpen, wrapperStyle, modalStyle} = props
 
 	// State
 	const [paddingAnim] = useState(new Animated.Value(0))
@@ -91,10 +91,10 @@ export default Modalizer = (props) => {
 		]}>
 			<Animated.View style={[
 				{
-					...styles.container,
+					...styles.modal,
 					opacity: opacityAnim
 				},
-				containerStyle
+				modalStyle
 			]}>
 				{props.children}
 			</Animated.View>	
@@ -112,7 +112,7 @@ const styles = {
 		zIndex: 100000,
 		backgroundColor: 'rgba(0,0,0,0.8)',
 	},
-	container: {
+	modal: {
 		width: '95%',
 		height: '95%',
 		maxHeight: '95%',

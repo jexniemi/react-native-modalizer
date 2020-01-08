@@ -30,7 +30,7 @@ import Modalizer from 'react-native-modalizer'
 | :------- | :------: | :---------: | :----------- |
 | modalOpen   | `bool` | yes  | Set true to open modal, set false to close |
 | wrapperStyle  |  {}  |   optional   | Overwrite any default wrapper styles |
-| containerStyle |  {}  |   optional    | Overwrite any default modal content container styles |
+| modalStyle |  {}  |   optional    | Overwrite any default modal content container styles |
 
 ## Usage
 
@@ -78,7 +78,7 @@ export default (props) => {
 
 ## Altering default styles
 
-The modal consists of two parts, the outter wrapper and the inner content container (the actual modal). The wrapper takes up 100% of width and height of any container where you put it to prevent scrolling the content and to center the modal. To alter the size or look of the modal, use the containerStyle prop to override any default styles.
+The component consists of two parts, the outter wrapper and the modal itself. The wrapper takes up 100% of width and height of any container where you put it to prevent scrolling the content and to center the modal. To alter the size or look of the modal, use the modalStyle prop to override any default styles.
 
 ## Other
 
