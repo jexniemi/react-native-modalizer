@@ -5,8 +5,6 @@ A fully customizable, animated modal component for React-Native. Make modals out
 
 ## Installation
 
-##### npm package temporarily unavailable, will be re-released on 8th January 2020. Meanwhile if you want to use it, just copy index.js from ./src and make sure you prop-types dependency installed.
-
 In your project root run:
 
 ```
