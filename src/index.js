@@ -115,7 +115,6 @@ const styles = {
 	modal: {
 		width: '95%',
 		height: '95%',
-		maxHeight: '95%',
 		overflow: 'hidden',
 		borderRadius: 15,
 		borderWidth: 1,
